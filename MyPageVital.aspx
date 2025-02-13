@@ -5,17 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WEB_112_Vital_P1
+namespace Webform1
 {
-    public partial class MyPageVital : System.Web.UI.Page
+    public partial class WebForm1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-        protected void BtnSubmit_click(object sender, EventArgs e)
-        {
-            LblUsername.Text = TxtUsername.Text;
-        }
+
     }
 }
